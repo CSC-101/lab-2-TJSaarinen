@@ -5,6 +5,5 @@ def welcome_message(name:str) -> str:
    message = "Hello, " + name + "."
    return message
 
-
 message = welcome_message("saarinen@calpoly.edu")
 print(message)
